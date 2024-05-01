@@ -104,19 +104,28 @@ li {
   flex-direction: column;
 }
 .about_us_content_box {
-  /* background-color: rgb(255, 255, 255); */
+  background-color: rgb(255, 255, 255);
   width: 80%;
 }
 .social_media {
   display: flex;
-  justify-content: space-around;
-  /* background-color: green; */
+  justify-content: space-between;
+  /* background-color: rgb(202, 220, 251); */
   width: 80%;
   height: auto;
   height: 40vh;
+  padding-top: 5vh;
 }
 .contact {
   display: flex;
+}
+.contact_details {
+  display: flex;
+  padding: 5px;
+  border-right: 1px solid black;
+}
+.contact_vendor {
+  border-right: 1px solid grey;
 }
 .follow_us {
   display: flex;
