@@ -90,23 +90,41 @@ li {
 .upper_div {
   width: 80%;
   height: 50vh;
-
   display: flex;
   justify-content: space-around;
   border-top: 1px solid rgb(45, 45, 45);
   padding: 80px 0px;
-  /* align-items: end; */
 }
 .about_us {
-  height: 80vh;
+  height: auto;
   width: 100%;
-  background-color: rgb(144, 128, 226);
+  background-color: rgb(225, 221, 251);
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .about_us_content_box {
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   width: 80%;
+}
+.social_media {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: green; */
+  width: 80%;
+  height: auto;
+  height: 40vh;
+}
+.contact {
+  display: flex;
+}
+.follow_us {
+  display: flex;
+  flex-direction: column;
+}
+.find_app {
+  display: flex;
+  flex-direction: column;
 }
 .lower_footer {
   width: 100%;
@@ -116,18 +134,17 @@ li {
   justify-content: space-between;
   align-items: center;
   color: black;
-
   list-style: none;
 }
 .popular_searches {
-  width: 50vw;
+  width: 60vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .popular_searches a {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   color: white;
   /* padding-bottom: 8px; */
 }
