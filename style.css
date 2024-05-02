@@ -30,9 +30,15 @@ li {
 }
 .subdiv {
   display: flex;
-  justify-content: end;
+  /* justify-content: end; */
+  align-items: center;
+  /* background-color: rgb(59, 117, 167); */
 }
-
+.ri-menu-3-line {
+  display: none;
+  font-size: 20px;
+  /* font-weight: 8000; */
+}
 .nav {
   background-color: rgb(54, 89, 132);
   display: flex;
@@ -58,11 +64,12 @@ li {
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   width: 100%;
   height: 55vh;
   flex-direction: column;
   margin-top: 50px;
+  line-height: 5vh;
 }
 
 .over_img h1 {
@@ -76,8 +83,8 @@ li {
   color: white;
   font-size: 2vh;
   font-weight: 200px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 50px; */
 }
 .our_app {
   display: flex;
@@ -86,17 +93,18 @@ li {
   background-color: rgb(209, 166, 202);
 }
 .app {
-  width: 80%;
+  width: 90%;
   height: 50vh;
   /* align-items: center ; */
   display: flex;
   justify-content: space-between;
   /* background-color: wheat; */
+  padding-left: 1vw;
 }
 .our_app_main {
   /* background-color: rgb(255, 224, 224); */
   /* filter: blur(7px) brightness(90%); */
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
   /* padding-left: 5vw; */
@@ -119,7 +127,7 @@ li {
   padding: 1vh;
 }
 .our_app img {
-  width: 10vw;
+  width: 200px;
   height: 40vh;
   border-radius: 25px;
 }
@@ -156,6 +164,7 @@ li {
   width: 80%;
   height: 50vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   border-top: 1px solid rgb(45, 45, 45);
   padding: 80px 0px;
@@ -165,6 +174,7 @@ li {
   width: 100%;
   background-color: rgb(225, 221, 251);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   flex-direction: column;
 }
@@ -172,6 +182,7 @@ li {
   text-align: justify;
   text-justify: inter-word;
   margin-top: 2vh;
+  line-height: 1.5vw;
 }
 .about_us_content_box {
   /* background-color: rgb(255, 255, 255); */
@@ -183,6 +194,7 @@ li {
 }
 .social_media {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   /* background-color: rgb(202, 220, 251); */
   width: 80%;
@@ -192,12 +204,14 @@ li {
 }
 .contact_us {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 3vh;
 }
 .contact_details {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 5px;
 }
@@ -207,6 +221,13 @@ li {
 }
 .contact_users {
   padding-left: 2vw;
+}
+.adress {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50vh;
+  /* line-height: 3vh; */
 }
 .blog_alert button {
   padding: 8px;
@@ -223,10 +244,12 @@ li {
 }
 .follow_us {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 .find_app {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -245,6 +268,7 @@ li {
   height: 5vh;
   background-color: rgb(213, 200, 248);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   color: black;
@@ -253,6 +277,8 @@ li {
 .popular_searches {
   width: 60vw;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
@@ -264,6 +290,7 @@ li {
 }
 .lower_footer ul {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .lower_footer ul i {
@@ -276,8 +303,93 @@ li {
 .upper_div ul li {
   padding: 8px;
 }
+
 @media (max-width: 768px) {
+  .hotel_name {
+    font-size: 2vh;
+  }
   .our_app {
     background-color: rgb(200, 176, 223);
+  }
+  .ri-menu-3-line {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 20px;
+    color: white;
+  }
+  .subdiv li {
+    display: none;
+  }
+  .about_details {
+    line-height: 23px;
+  }
+  .over_img {
+    height: 50%;
+    margin-top: 3vh;
+  }
+  .over_img h1 {
+    font-size: 5vw;
+    color: black;
+  }
+  .about_us {
+    height: auto;
+  }
+  .our_app_main h2 {
+    background-color: yellowgreen;
+    width: 100%;
+    font-size: 3vw;
+  }
+  .our_app {
+    padding: 0;
+    width: 100%;
+  }
+  .our_app img {
+    width: 150px;
+    height: 30vh;
+    border-radius: 25px;
+  }
+  .our_app_image {
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .our_app {
+    width: 100vw;
+    justify-content: space-between;
+  }
+  .our_app_main {
+    width: 50vw;
+  }
+  .about_us {
+    height: 100vh;
+  }
+  .footer_main {
+    /* height: auto; */
+    /* margin-top: 0;
+    padding-top: 0; */
+  }
+  .contact_details {
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    padding: 0;
+  }
+  .contact_users {
+    padding: 0;
+  }
+  .contact_vendor {
+    border: none;
+  }
+  .upper_div {
+    padding: 0;
+    width: 90vw;
+  }
+  .adress {
+    width: 85vw;
+    margin: 15px 0px;
+  }
+  .blog_alert input {
+    width: 29vh;
   }
 }
