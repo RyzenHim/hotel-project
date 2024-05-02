@@ -83,7 +83,7 @@ li {
   display: flex;
   justify-content: center;
   padding: 50px;
-  background-color: rgb(240, 214, 236);
+  background-color: rgb(209, 166, 202);
 }
 .app {
   width: 80%;
@@ -91,10 +91,11 @@ li {
   /* align-items: center ; */
   display: flex;
   justify-content: space-between;
-  background-color: wheat;
+  /* background-color: wheat; */
 }
 .our_app_main {
-  background-color: rgb(255, 224, 224);
+  /* background-color: rgb(255, 224, 224); */
+  /* filter: blur(7px) brightness(90%); */
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -120,13 +121,14 @@ li {
 .our_app img {
   width: 10vw;
   height: 40vh;
+  border-radius: 25px;
 }
 .our_app_image {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .platform_logo {
   display: flex;
@@ -134,8 +136,7 @@ li {
   width: 10vw;
   /* background-color: blue; */
   margin-left: 30%;
-}
-.platform_logo i {
+  color: black;
 }
 .footer_main {
   height: 60vh;
@@ -268,4 +269,9 @@ li {
 
 .upper_div ul li {
   padding: 8px;
+}
+@media (max-width: 768px) {
+  .our_app {
+    background-color: rgb(200, 176, 223);
+  }
 }
