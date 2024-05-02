@@ -133,10 +133,16 @@ li {
 .platform_logo {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 10vw;
   /* background-color: blue; */
   margin-left: 30%;
-  color: black;
+  /* color: black; */
+  font-size: 40px;
+}
+.ri-android-fill {
+  font-size: 35px;
+  margin-top: 5px;
 }
 .footer_main {
   height: 60vh;
