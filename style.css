@@ -86,6 +86,23 @@ li {
   /* margin-top: 20px; */
   /* margin-bottom: 50px; */
 }
+/* photo galary starts here */
+.photo_galaryone {
+  width: 100vw;
+  height: 80vh;
+  background-color: blueviolet;
+}
+.photo_galarytwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.photo_galarytwo img {
+  width: 300px;
+  height: 300px;
+}
+/* photo galary ends here */
 .our_app {
   display: flex;
   justify-content: center;
