@@ -185,6 +185,14 @@ li {
   font-size: 35px;
   margin-top: 5px;
 }
+/* ++++++++++++++++++++++ */
+
+.wedding_catagories_img img {
+  width: 200px;
+}
+
+/* ++++++++++++++++++++++ */
+
 .footer_main {
   height: 60vh;
   width: 100%;
