@@ -186,6 +186,12 @@ li {
   margin-top: 5px;
 }
 /* ++++++++++++++++++++++ */
+.wedding_catagories_main {
+  background-color: blueviolet;
+}
+.wedding_catagories_main h2 {
+  text-wrap: nowrap;
+}
 
 .wedding_catagories_img img {
   width: 200px;
