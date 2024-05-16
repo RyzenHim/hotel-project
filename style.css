@@ -192,7 +192,19 @@ li {
 .wedding_catagories_main h2 {
   text-wrap: nowrap;
 }
-
+.wedding_catagories_sub {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: aquamarine;
+}
+.wedding_catagories {
+  width: 600px;
+  height: auto;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 20px;
+}
 .wedding_catagories_img img {
   width: 200px;
 }
