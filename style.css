@@ -47,6 +47,7 @@ li {
   padding: 0;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .icon img {
@@ -187,7 +188,7 @@ li {
 }
 /* ++++++++++++++++++++++ */
 .wedding_catagories_main {
-  background-color: blueviolet;
+  background-color: rgb(227, 203, 250);
 }
 .wedding_catagories_main h2 {
   text-wrap: nowrap;
@@ -196,27 +197,31 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: aquamarine;
+  background-color: rgb(226, 242, 249);
 }
 .wedding_catagories {
   width: 600px;
   height: auto;
-  border: 1px solid black;
+  /* height: 200px; */
+  /* border: 1px solid black; */
   margin: 50px;
   /* padding: 20px; */
-  background-color: #2d3e66;
+  background-color: #7a9ae5;
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
   /* line-height: 2vh; */
 }
-
+.wedding_catagories_written {
+  padding-left: 20px;
+}
 .wedding_catagories_img img {
-  width: 350px;
+  height: 200px;
   /* border-radius: 50px; */
   object-fit: cover;
   clip-path: ellipse(99% 180px at 100% 50%);
+  /* overflow: hidden; */
 }
 
 /* ++++++++++++++++++++++ */
