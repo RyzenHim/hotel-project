@@ -222,6 +222,31 @@ li {
   /* overflow: hidden; */
 }
 
+/* ******AL Venture inhouse services starts********** */
+.card_main {
+  background-color: #7a9ae5;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+}
+.card_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card_button {
+  display: flex;
+  justify-content: center;
+}
+.card_photo img {
+  width: 350px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* ******AL Venture inhouse services ends here********** */
+
 /* ++++++++++++++++++++++ */
 
 .footer_main {
