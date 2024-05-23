@@ -226,18 +226,36 @@ li {
 .card_main {
   background-color: #7a9ae5;
   width: 25vw;
+  height: 30vh;
   display: flex;
   justify-content: center;
+}
+.card_sub {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: ; */
 }
 .card_content {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: bisque;
 }
 .card_button {
   display: flex;
   justify-content: center;
+  background-color: blue;
+  height: 5vh;
+}
+.card_button button {
+  border-style: none;
+  background-color: #fff;
+  color: rgb(222, 144, 157);
+  height: 4vh;
+  width: 6vw;
 }
 .card_photo img {
   width: 350px;
