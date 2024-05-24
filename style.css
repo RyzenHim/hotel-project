@@ -225,10 +225,13 @@ li {
 /* ******AL Venture inhouse services starts********** */
 .card_main {
   background-color: #7a9ae5;
-  width: 25vw;
-  height: 30vh;
+  width: 40vw;
+  height: 40vh;
   display: flex;
   justify-content: center;
+  /* gap: 2vw; */
+  border: 2px solid red;
+  flex-wrap: wrap;
 }
 .card_sub {
   background-color: blueviolet;
@@ -262,7 +265,13 @@ li {
   height: 150px;
   object-fit: cover;
 }
-
+.inhouse_services_main {
+  display: flex;
+  /* height: 100vh; */
+  gap: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /* ******AL Venture inhouse services ends here********** */
 
 /* ++++++++++++++++++++++ */
