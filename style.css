@@ -224,17 +224,17 @@ li {
 
 /* ******AL Venture inhouse services starts********** */
 .card_main {
-  background-color: #7a9ae5;
+  background-color: #b4c6f1;
   width: 40vw;
   height: 40vh;
   display: flex;
   justify-content: center;
   /* gap: 2vw; */
-  border: 2px solid red;
+  /* border: 2px solid red; */
   flex-wrap: wrap;
 }
 .card_sub {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -245,24 +245,24 @@ li {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 .card_button {
   display: flex;
   justify-content: center;
-  background-color: blue;
+  /* background-color: blue; */
   height: 5vh;
 }
 .card_button button {
   border-style: none;
   background-color: #fff;
-  color: rgb(222, 144, 157);
+  /* color: rgb(222, 144, 157); */
   height: 4vh;
   width: 6vw;
 }
 .card_photo img {
-  width: 350px;
-  height: 150px;
+  width: 550px;
+  height: 200px;
   object-fit: cover;
 }
 .inhouse_services_main {
