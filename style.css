@@ -275,7 +275,10 @@ li {
 /* ******AL Venture inhouse services ends here********** */
 
 /* ++++++++++++++++++++++ */
-
+.inhouse_services_main {
+  display: flex;
+  height: 100vh;
+}
 .footer_main {
   height: 60vh;
   width: 100%;
