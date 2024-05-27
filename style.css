@@ -270,12 +270,19 @@ li {
   width: 550px;
   height: 200px;
   object-fit: cover;
+}
+.card_photo {
+  width: 550px;
+  height: 200px;
+  object-fit: cover;
   overflow-clip-margin: content-box;
   overflow: clip;
   box-sizing: border-box;
+  background-color: #365984;
 }
-.card_photo:hover {
+.card_photo img:hover {
   transform: scale(1.1);
+  transition: 0.5s;
 }
 .inhouse_services_main {
   display: flex;
