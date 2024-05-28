@@ -97,6 +97,9 @@ li {
   align-items: center;
   justify-content: center;
 }
+.photo_galaryone_div {
+  background-color: bisque;
+}
 .photo_galarytwo {
   background-color: rgb(245, 177, 177);
   display: flex;
@@ -117,6 +120,10 @@ li {
   width: 250px;
   height: 250px;
   object-fit: cover;
+}
+.photo_galarytwo img:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
 /* photo galary ends here */
 .our_app {
