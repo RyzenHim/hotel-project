@@ -190,6 +190,11 @@ li {
 .wedding_catagories_main {
   background-color: rgb(227, 203, 250);
 }
+.wedding_catagories_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
 .wedding_catagories_main h2 {
   text-wrap: nowrap;
 }
