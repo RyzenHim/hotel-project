@@ -98,7 +98,7 @@ li {
   justify-content: center;
 }
 .photo_galarytwo {
-  /* background-color: brown; */
+  background-color: rgb(245, 177, 177);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -110,7 +110,7 @@ li {
 .photo_galarytwo div {
   /* border: 2px solid black; */
   /* padding: 10px; */
-  border-radius: 15px;
+  /* border-radius: 15px; */
   overflow: hidden;
 }
 .photo_galarytwo img {
