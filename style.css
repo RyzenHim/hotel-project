@@ -87,6 +87,22 @@ li {
   /* margin-top: 20px; */
   /* margin-bottom: 50px; */
 }
+
+/* **********popular searche starts here********** */
+
+.popular_searches_maindiv {
+  display: flex;
+}
+.popular_searches_photoDiv img {
+  width: 200px;
+  height: 200px;
+}
+.popular_searches_descriptionDiv {
+  width: 200px;
+  height: 200px;
+}
+/* **********popular searche ends here********** */
+
 /* photo galary starts here */
 .photo_galaryone {
   width: 100%;
