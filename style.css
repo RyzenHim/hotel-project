@@ -89,17 +89,25 @@ li {
 }
 
 /* **********popular searche starts here********** */
-
+.popular_search {
+  display: flex;
+  justify-content: center;
+}
 .popular_searches_maindiv {
   display: flex;
 }
 .popular_searches_photoDiv img {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
 }
 .popular_searches_descriptionDiv {
   width: 200px;
   height: 200px;
+}
+.popular_searches_cities {
+  display: flex;
+  justify-content: space-between;
 }
 /* **********popular searche ends here********** */
 
