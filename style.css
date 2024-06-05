@@ -11,6 +11,11 @@ li {
 .topper {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.topper-right {
+  display: flex;
+  gap: 1vw;
 }
 .hotel_name {
   text-align: center;
@@ -97,9 +102,13 @@ li {
 .popular_search {
   display: flex;
   justify-content: center;
+  background-color: cadetblue;
 }
 .popular_searches_maindiv {
   display: flex;
+  gap: 1vw;
+  align-items: center;
+  background-color: rgb(156, 173, 173);
 }
 .popular_searches_photoDiv img {
   width: 180px;
