@@ -110,7 +110,9 @@ li {
   /* margin-top: 20px; */
   /* margin-bottom: 50px; */
 }
-
+.main-margin-div {
+  margin: 0px 8vw;
+}
 /* **********popular searche starts here********** */
 .popular_search {
   display: flex;
