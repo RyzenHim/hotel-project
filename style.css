@@ -76,7 +76,11 @@ li {
   border-radius: 10px;
 }
 .over_img {
-  background-image: url("/pictures/ciudad-maderas-MXbM1NrRqtI-unsplash.jpg");
+  background-image: url("/pictures/ciudad-maderas-MXbM1NrRqtI-unsplash.jpg"),
+    linear-gradient(#2928287c, #767676, #302f2f84);
+  background-blend-mode: multiply;
+  /* height: 77vh; */
+  /* border-bottom: 8px solid rgb(41, 41, 41); */
   /* filter: blur(2px); */
   /* -webkit-filter: blur(8px); */
   background-position: center;
