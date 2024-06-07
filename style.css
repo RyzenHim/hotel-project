@@ -7,7 +7,6 @@
 }
 :root {
   --text-color: snow;
-  --bgc: snow;
   --colorOne: #eef7ff;
   --colorTwo: #cde8e5;
   --colorThree: #7ab2b2;
@@ -28,8 +27,8 @@ li {
 .hotel_name {
   text-align: center;
   padding: 0.31rem;
-  color: rgb(54, 89, 132);
-  font-size: 1.2rem;
+  color: #4d869c;
+  font-size: 1rem;
 }
 .center_div {
   background-color: #4d869c;
@@ -67,6 +66,7 @@ li {
   position: fixed;
   width: 100%;
   z-index: 100;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .icon img {
