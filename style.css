@@ -113,17 +113,26 @@ li {
 .main-margin-div {
   margin: 0px 8vw;
 }
+/* section {
+  width: 100%;
+} */
+.inhouse-services-main {
+  margin: 0px 8vw;
+}
+
 /* **********popular searche starts here********** */
 .popular_search {
   display: flex;
   justify-content: center;
-  background-color: cadetblue;
+  background-color: rgb(155, 192, 61);
+  width: 100%;
 }
 .popular_searches_maindiv {
   display: flex;
+  flex-wrap: wrap;
   gap: 1vw;
   align-items: center;
-  background-color: rgb(156, 173, 173);
+  background-color: rgb(168, 131, 62);
 }
 .popular_searches_photoDiv img {
   width: 180px;
@@ -165,7 +174,7 @@ li {
   justify-content: center;
   gap: 20px;
   height: 50vh;
-  width: 90%;
+  width: 100%;
 }
 .photo_galarytwo div {
   /* border: 2px solid black; */
@@ -265,14 +274,15 @@ li {
 .wedding_catagories_sub {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   background-color: rgb(226, 242, 249);
   padding: 60px 0;
+  gap: 3vw;
 }
 .wedding_catagories {
-  width: 600px;
+  width: 40vw;
   height: 150px;
-  margin: 10px;
+  /* margin: 10px; */
   background-color: #7a9ae5;
   color: rgb(255, 255, 255);
   display: flex;
@@ -358,7 +368,7 @@ li {
   /* height: 100vh; */
   gap: 2vw;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 /* ******AL Venture inhouse services ends here********** */
 
@@ -490,12 +500,12 @@ li {
   list-style: none;
 }
 .popular_searches {
-  width: 60vw;
+  /* width: 60vw; */
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .popular_searches a {
   text-decoration: none;
