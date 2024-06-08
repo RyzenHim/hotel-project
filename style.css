@@ -30,7 +30,7 @@ li {
   text-align: center;
   padding: 0.31rem;
   color: #4d869c;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 /* **topper button started** */
 
@@ -78,42 +78,71 @@ li {
 
 /* **topper button ended** */
 
-.list a {
+/* .list a {
   text-decoration: none;
   color: var(--text-color);
-}
-.subdiv li {
-  list-style: none;
-  margin-right: 2.2rem;
-  font-size: 1.2rem;
-  color: #eef7ff;
-  font-weight: 500;
-}
-.subdiv {
-  display: flex;
-  /* justify-content: end; */
-  align-items: center;
-  /* background-color: rgb(59, 117, 167); */
-}
-.ri-menu-3-line {
-  display: none;
-  font-size: 20px;
-  /* font-weight: 8000; */
-}
-header {
-  position: absolute;
-}
+} */
+
 body {
   background-color: var(--colorOne);
 }
 
+/* ***nav list animation started*** */
+.list_btn {
+  font-size: 18px;
+  color: var(--colorOne);
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.list_btn:focus,
+.list_btn:hover {
+  color: #fff;
+}
+
+.list_btn:focus:after,
+.list_btn:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.list_btn:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--colorOne);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+.nav-list-subdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2vw;
+}
+/* ***nav list animation started*** */
+
 .nav {
-  position: -webkit-sticky;
+  /* position: -webkit-sticky; */
+  /* background-color: #e8e8e8; */
   background-color: var(--colorFour);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 0 20px;
   /* position: -webkit-sticky; */
   position: sticky;
   /* top: 0; */
@@ -125,6 +154,7 @@ body {
   /* top: 0px; */
   z-index: 100;
 }
+
 main {
   background-color: var(--colorOne);
 }
@@ -595,9 +625,6 @@ main {
     font-weight: 800;
     padding-right: 20px;
     color: white;
-  }
-  .subdiv li {
-    display: none;
   }
   .about_details {
     line-height: 23px;
