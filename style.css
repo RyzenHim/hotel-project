@@ -11,6 +11,7 @@
   --colorTwo: #cde8e5;
   --colorThree: #7ab2b2;
   --colorFour: #4d869c;
+  --conatiner-margin: 5vh 0;
 }
 li {
   list-style: none;
@@ -20,6 +21,7 @@ li {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
+  background-color: var(--colorTwo);
 }
 .topper-right {
   display: flex;
@@ -29,7 +31,7 @@ li {
 .hotel_name {
   text-align: center;
   padding: 0.31rem;
-  color: #4d869c;
+  color: var(--colorFour);
   font-size: 0.8rem;
 }
 /* **topper button started** */
@@ -226,6 +228,7 @@ main {
   position: sticky;
   top: -400px;
   z-index: 1;
+  margin: var(--conatiner-margin);
 }
 .popular_searches_maindiv {
   display: flex;
@@ -254,6 +257,7 @@ main {
 .photo_galary_maindiv {
   /* background-color: var(--colorFour); */
   width: 100%;
+  margin: var(--conatiner-margin);
   /* display: flex; */
   /* justify-content: space-between; */
   /* flex-direction: column; */
@@ -345,6 +349,7 @@ main {
 /* ++++++++++++++++++++++ */
 .wedding_catagories_main {
   /* background-color: rgb(227, 203, 250); */
+  margin: var(--conatiner-margin);
 }
 .wedding_catagories_heading {
   display: flex;
