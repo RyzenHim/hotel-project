@@ -23,6 +23,9 @@
 li {
   list-style: none;
 }
+h4 {
+  color: var(--colorFour);
+}
 .topper {
   display: flex;
   align-items: center;
@@ -147,7 +150,7 @@ body {
 .nav {
   /* position: -webkit-sticky; */
   /* background-color: #e8e8e8; */
-  background-color: var(--colorFive);
+  background-color: var(--colorFour);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -293,7 +296,7 @@ main {
   display: flex;
   justify-content: center;
   padding: 50px;
-  background-color: var(--colorThree);
+  background-color: #7fc7d9;
   /* background-color: rgb(209, 166, 202); */
   /* background-color: rgb(225, 221, 251); */
 }
@@ -383,7 +386,7 @@ main {
   width: 40vw;
   height: 150px;
   /* margin: 10px; */
-  background-color: #7a9ae5;
+  background-color: var(--colorFour);
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
@@ -403,7 +406,7 @@ main {
 
 /* ******AL Venture inhouse services starts********** */
 .card_main {
-  background-color: #b4c6f1;
+  background-color: var(--colorFour);
   width: 40vw;
   height: 40vh;
   display: flex;
