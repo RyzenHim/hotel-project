@@ -26,13 +26,16 @@ li {
 a {
   text-decoration: none;
   color: black;
+  transition-duration: 0.2s;
 }
 a:hover {
-  color: var(--colorFour);
+  color: red;
   font-size: 18px;
 }
+
 h4 {
   color: var(--colorFour);
+  text-transform: capitalize;
 }
 .topper {
   display: flex;
@@ -218,7 +221,7 @@ main {
   text-transform: uppercase;
   color: white;
   font-size: 2vh;
-  font-weight: 200px;
+  font-weight: 500;
   /* margin-top: 20px; */
   /* margin-bottom: 50px; */
 }
