@@ -13,7 +13,7 @@
   --colorThree: #7ab2b2;
   --colorFour: #4d869c;
   /* --colorFour: #2d3250; */
-  --conatiner-margin: 5vh 0;
+  --conatiner-margin: 6vh 0;
 }
 .heading {
   color: var(--colorFour);
@@ -22,6 +22,14 @@
 }
 li {
   list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: var(--colorFour);
+  font-size: 18px;
 }
 h4 {
   color: var(--colorFour);
@@ -251,18 +259,40 @@ main {
   /* background-color: rgb(187, 172, 143); */
   /* border: 2px solid black; */
 }
+.popular_searches_photoDiv {
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.popular_searches_photoDiv img:hover {
+  transform: scale(1.1);
+}
 .popular_searches_photoDiv img {
   width: 180px;
   height: 180px;
   object-fit: cover;
+  transition-duration: 0.5s;
 }
 .popular_searches_descriptionDiv {
   width: 200px;
   height: 200px;
+  /* background-color: #fff; */
 }
+.popular_searches_descriptionDiv h4 {
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
 .popular_searches_cities {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.popular_searches_cities p::before {
+  content: "";
 }
 /* **********popular searches ends here********** */
 
