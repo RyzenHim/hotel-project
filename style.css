@@ -6,12 +6,19 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 :root {
-  --text-color: snow;
+  --colorFive: #7979b7;
+  --colorSober: #e6e4f7;
   --colorOne: #eef7ff;
   --colorTwo: #cde8e5;
   --colorThree: #7ab2b2;
   --colorFour: #4d869c;
+  /* --colorFour: #2d3250; */
   --conatiner-margin: 5vh 0;
+}
+.heading {
+  color: var(--colorFour);
+  text-transform: uppercase;
+  margin-bottom: 2vh;
 }
 li {
   list-style: none;
@@ -86,7 +93,7 @@ li {
 } */
 
 body {
-  background-color: var(--colorOne);
+  background-color: var(--colorSober);
 }
 
 /* ***nav list animation started*** */
@@ -140,21 +147,24 @@ body {
 .nav {
   /* position: -webkit-sticky; */
   /* background-color: #e8e8e8; */
-  background-color: var(--colorFour);
+  background-color: var(--colorFive);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
   /* position: -webkit-sticky; */
   position: sticky;
-  /* top: 0; */
+  align-self: start;
+
+  top: 0px;
   width: 100%;
   /* z-index: 100; */
   box-shadow: rgb(27, 40, 54) 0px 20px 30px -10px;
-  position: fixed;
+  /* position: fixed; */
   /* position: fixed; */
   /* top: 0px; */
   z-index: 100;
+  /* visibility: hidden; */
 }
 
 main {
@@ -183,7 +193,7 @@ main {
   width: 100%;
   height: 55vh;
   flex-direction: column;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   line-height: 5vh;
 }
 
@@ -283,7 +293,8 @@ main {
   display: flex;
   justify-content: center;
   padding: 50px;
-  background-color: rgb(209, 166, 202);
+  background-color: var(--colorThree);
+  /* background-color: rgb(209, 166, 202); */
   /* background-color: rgb(225, 221, 251); */
 }
 .app {
@@ -363,9 +374,10 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: rgb(226, 242, 249);
-  padding: 60px 0;
+  /* background-color: rgb(226, 242, 249); */
+  /* padding: 60px 0; */
   gap: 3vw;
+  align-items: start;
 }
 .wedding_catagories {
   width: 40vw;
