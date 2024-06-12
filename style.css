@@ -181,6 +181,28 @@ body {
   /* visibility: hidden; */
 }
 
+/* ***mobile nav satrted*** */
+
+.mobile_list {
+  position: fixed;
+  top: 100px;
+  left: 60vw;
+  width: 40vw;
+  height: 100%;
+  z-index: 999;
+  background-color: royalblue;
+}
+.mobile_nav-list-subdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  width: 80%;
+}
+.mobile_nav-list-subdiv button {
+  font-weight: 600;
+}
+/* ***mobile nav endeed*** */
+
 main {
   background-color: var(--colorOne);
 }
