@@ -348,9 +348,15 @@ main {
 }
 .photo_galary-main_card {
   text-align: center;
-  border: 2px solid var(--colorFour);
+  border: 2px solid var(--colorThree);
   /* display: inline-block; */
   width: 20%;
+  background: var(--colorTwo);
+  padding: 10px;
+  cursor: pointer;
+  color: var(--colorFour);
+  font-weight: 500;
+  border-radius: 10px;
 }
 /* photo galary ends here */
 .our_app {
