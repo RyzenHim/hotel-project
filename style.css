@@ -181,6 +181,11 @@ body {
   /* visibility: hidden; */
 }
 
+.navsvgone:hover,
+.navsvgtwo :hover {
+  cursor: pointer;
+  fill: red;
+}
 /* ***mobile nav satrted*** */
 
 .mobile_list {

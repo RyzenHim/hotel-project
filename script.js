@@ -8,5 +8,6 @@ function showNav() {
   sn.style.display = "inline";
 }
 
-let hn = document.querySelectorAll("#navsvg");
-hn.style.cursor = "pointer";
+// let hn = (document.querySelectorAll(".navsvgone").style.cursor = "pointer");
+// let sn = document.querySelectorAll(".navsvgtwo");
+// sn.style.cursor = "pointer";
