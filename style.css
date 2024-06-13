@@ -334,6 +334,7 @@ main {
 .photo_galary_maindiv {
   /* background-color: var(--colorFour); */
   width: 100%;
+  height: auto;
   margin: var(--conatiner-margin);
   /* display: flex; */
   /* justify-content: space-between; */
@@ -344,6 +345,7 @@ main {
   flex-wrap: wrap;
   gap: 2vw;
   justify-content: space-between;
+  /* background-color: var(--colorFour); */
 }
 .photo_div img {
   width: 100%;
@@ -353,7 +355,7 @@ main {
   text-align: center;
   border: 2px solid var(--colorThree);
   /* display: inline-block; */
-  width: 20%;
+  max-width: 15vw;
   background: var(--colorTwo);
   padding: 10px;
   cursor: pointer;
@@ -376,6 +378,7 @@ main {
   background-color: #7fc7d9;
   /* background-color: rgb(209, 166, 202); */
   /* background-color: rgb(225, 221, 251); */
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .app {
   width: 90%;
@@ -561,7 +564,7 @@ main {
   height: 100vh;
 }
 .footer_main {
-  height: 60vh;
+  height: auto;
   width: 100%;
   background-color: rgb(121, 121, 183);
   display: flex;
@@ -570,15 +573,18 @@ main {
 }
 .upper_div {
   width: 80%;
-  height: 50vh;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-top: 1px solid rgb(45, 45, 45);
+  /* border-top: 1px solid rgb(255, 255, 255); */
+  /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
   padding: 80px 0px;
+  color: var(--colorOne);
+  font-weight: 450;
 }
 .about_us {
-  height: auto;
+  height: fit-content;
   width: 100%;
   background-color: rgb(225, 221, 251);
   display: flex;
