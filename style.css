@@ -237,6 +237,7 @@ main {
   flex-direction: column;
   /* margin-top: 50px; */
   line-height: 5vh;
+  box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px;
 }
 
 .over_img h1 {
@@ -295,6 +296,8 @@ main {
   overflow: hidden;
   display: flex;
   align-items: center;
+  transition-duration: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.472) 0px 3px 8px;
 }
 .popular_searches_photoDiv img:hover {
   transform: scale(1.1);
@@ -363,6 +366,7 @@ main {
 .photo_galary-main_card:hover {
   transform: scale(1.1);
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color: #233851;
 }
 /* photo galary ends here */
 .our_app {
@@ -465,6 +469,7 @@ main {
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .wedding_catagories_written {
   padding-left: 20px;
@@ -488,6 +493,7 @@ main {
   /* border: 2px solid red; */
   flex-wrap: wrap;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .card_sub {
   /* background-color: blueviolet; */
@@ -502,6 +508,7 @@ main {
   flex-direction: column;
   align-items: center;
   /* background-color: bisque; */
+  color: var(--colorOne);
 }
 .card_button {
   display: flex;
