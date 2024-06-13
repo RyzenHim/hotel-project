@@ -356,7 +356,13 @@ main {
   cursor: pointer;
   color: var(--colorFour);
   font-weight: 500;
-  border-radius: 10px;
+  border-radius: 0.3vw;
+  transition-duration: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.photo_galary-main_card:hover {
+  transform: scale(1.1);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 /* photo galary ends here */
 .our_app {
