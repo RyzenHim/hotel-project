@@ -273,7 +273,8 @@ main {
 .popular_venue_search {
   /* background-color: rgb(155, 192, 61); */
   width: 100%;
-  position: sticky;
+  height: 100%;
+  /* position: sticky; */
   top: -400px;
   z-index: 1;
   margin: var(--conatiner-margin);
@@ -287,6 +288,7 @@ main {
   /* border: 2px solid black; */
 }
 .popular_searches_photoDiv {
+  height: 100%;
   border-radius: 10px;
   overflow: hidden;
   display: flex;
@@ -298,7 +300,7 @@ main {
   transform: scale(1.1);
 }
 .popular_searches_photoDiv img {
-  width: 180px;
+  width: 200px;
   height: 180px;
   object-fit: cover;
   transition-duration: 0.5s;
@@ -342,15 +344,24 @@ main {
   justify-content: space-between;
   /* background-color: var(--colorFour); */
 }
-.photo_div img {
+.photo_div {
+  height: 94%;
   width: 100%;
-  object-fit: cover;
+  overflow: hidden;
 }
+.photo_div img {
+  object-fit: cover;
+  /* background-image: ; */
+  height: 100%;
+  width: 100%;
+}
+
 .photo_galary-main_card {
   text-align: center;
   border: 2px solid var(--colorThree);
   /* display: inline-block; */
   max-width: 15vw;
+  max-height: 30vh;
   background: var(--colorTwo);
   padding: 10px;
   cursor: pointer;
