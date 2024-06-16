@@ -9,11 +9,12 @@
   --colorFive: #7979b7;
   --colorSober: #e6e4f7;
   --colorOne: #eef7ff;
-  --colorTwo: #cde8e5;
+  --colorTwo: #ebf2f8;
   --colorThree: #7ab2b2;
   --colorFour: #4d869c;
   /* --colorFour: #2d3250; */
   --conatiner-margin: 6vh 0;
+  --bgcolor: rgb(225, 221, 251);
 }
 .heading {
   color: var(--colorFour);
@@ -107,7 +108,7 @@ h4 {
 } */
 
 body {
-  background-color: var(--colorSober);
+  background-color: var(--bgcolor);
 }
 
 /* ***nav list animation started*** */
@@ -255,12 +256,6 @@ main {
   /* margin-bottom: 50px; */
 }
 .main-margin-div {
-  margin: 0px 8vw;
-}
-/* section {
-  width: 100%;
-} */
-.inhouse-services-main {
   margin: 0px 8vw;
 }
 
@@ -492,6 +487,19 @@ main {
 }
 
 /* ******AL Venture inhouse services starts********** */
+/* <!-- ******AL Venture inhouse services starts********** --> */
+
+.inhouse-services-main {
+  margin: var(--conatiner-margin);
+}
+.inhouse_services_main {
+  display: flex;
+  /* height: 100vh; */
+  gap: 2vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .card_main {
   background-color: var(--colorFour);
   width: 40vw;
@@ -555,20 +563,10 @@ main {
   transform: scale(1.1);
   transition: 0.5s;
 }
-.inhouse_services_main {
-  display: flex;
-  /* height: 100vh; */
-  gap: 2vw;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 /* ******AL Venture inhouse services ends here********** */
 
 /* ++++++++++++++++++++++ */
-.inhouse_services_main {
-  display: flex;
-  height: 100vh;
-}
 .footer_main {
   height: auto;
   width: 100%;
