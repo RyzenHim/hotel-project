@@ -29,8 +29,8 @@ a {
   transition-duration: 0.2s;
 }
 a:hover {
-  color: red;
-  font-size: 18px;
+  color: rgb(106, 98, 98);
+  /* font-size: 18px; */
 }
 
 h4 {
@@ -473,6 +473,12 @@ main {
   align-items: center;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  transition-duration: 0.5s;
+}
+.wedding_catagories:hover {
+  transform: scale(0.9);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .wedding_catagories_written {
   padding-left: 20px;
@@ -688,19 +694,26 @@ main {
   color: black;
   list-style: none;
 }
-.popular_searches {
-  /* width: 60vw; */
+.popular_searches_main {
   display: flex;
-  /* flex-wrap: wrap; */
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+}
+.popular_searches {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 2vw;
+  /* background: #233851; */
+  flex-wrap: nowrap;
 }
 .popular_searches a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 1rem;
   color: white;
   /* padding-bottom: 8px; */
+}
+.popular_searches a::before {
+  content: "||";
+  padding-right: 1vw;
 }
 .lower_footer ul {
   display: flex;
