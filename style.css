@@ -93,7 +93,7 @@ h4 {
   box-shadow: 0px 0px 20px var(--colorFour);
 }
 .button:hover::after {
-  top: -50%;
+  top: -80%;
 }
 .button:hover span {
   color: var(--colorFour);
@@ -239,7 +239,7 @@ main {
   flex-direction: column;
   /* margin-top: 50px; */
   line-height: 5vh;
-  box-shadow: rgb(0, 0, 0) 0px 25px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .over_img h1 {
