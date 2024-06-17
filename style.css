@@ -196,7 +196,8 @@ body {
   width: 40vw;
   height: 100%;
   z-index: 999;
-  background-color: royalblue;
+  /* background-color: royalblue; */
+  backdrop-filter: blur(50px);
   display: none;
 }
 .mobile_nav-list-subdiv {
@@ -358,7 +359,7 @@ main {
 
 .photo_galary-main_card {
   text-align: center;
-  border: 2px solid var(--colorThree);
+  border: 1px solid var(--colorFour);
   /* display: inline-block; */
   max-width: 15vw;
   max-height: 30vh;
@@ -381,7 +382,8 @@ main {
   display: flex;
   justify-content: center;
   padding: 50px;
-  background-color: #7fc7d9;
+  background-color: #4d869cae;
+  /* backdrop-filter: blur(10px); */
   /* background-color: rgb(209, 166, 202); */
   /* background-color: rgb(225, 221, 251); */
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
@@ -472,8 +474,10 @@ main {
   width: 40vw;
   height: 150px;
   /* margin: 10px; */
-  background-color: var(--colorFour);
-  color: rgb(255, 255, 255);
+  backdrop-filter: blur(2px);
+  /* background-color: var(--colorFour); */
+  border: 1px solid var(--colorFour);
+  color: var(--colorFour);
   display: flex;
   justify-content: space-between;
   align-items: center;
