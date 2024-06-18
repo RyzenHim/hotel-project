@@ -426,6 +426,7 @@ main {
   width: 20vw;
   height: 40vh;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.41) 0px 60px 40px -7px;
 }
 .our_app_image {
   width: 50%;
@@ -662,13 +663,15 @@ main {
   width: 50vh;
   /* line-height: 3vh; */
 }
-.blog_alert button {
+.blog_alert button,
+.download_button button {
   padding: 8px;
   background-color: rgb(121, 121, 183);
   margin-left: 0;
   border-style: none;
   margin-top: 10px;
   color: white;
+  cursor: pointer;
 }
 .blog_alert input {
   padding: 8px;
@@ -688,6 +691,8 @@ main {
 }
 .find_app img {
   margin-top: 3vh;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .follow_us h4 {
   margin-bottom: 10px;
