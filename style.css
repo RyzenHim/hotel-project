@@ -30,7 +30,7 @@ a {
   transition-duration: 0.2s;
 }
 a:hover {
-  color: rgb(106, 98, 98);
+  color: rgb(255, 255, 255);
   /* font-size: 18px; */
 }
 
@@ -586,7 +586,9 @@ main {
 .footer_main {
   height: auto;
   width: 100%;
-  background-color: rgb(121, 121, 183);
+  /* background-color: rgb(121, 121, 183); */
+  background-color: rgba(121, 121, 183, 0.801);
+
   display: flex;
   justify-content: center;
   align-items: end;
